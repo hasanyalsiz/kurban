@@ -3,12 +3,12 @@ function hesaplaKucuk() {
     var kilo = parseInt(document.getElementById('kilo').value);
 
     if (kucukbas === "Koyun") {
-      kilo = kilo * 0.5;
+      kilo = kilo * 0.6;
       var fiyat = kilo * 191;
       document.getElementById("kucuk-karkas").innerHTML = "Hayvanın Karkas Kilosu: " + kilo + "KG";
       document.getElementById("kucuk-fiyat").innerHTML = "Hayvanın Ortalama Fiyatı: " + fiyat + " TL";
     } else if (kucukbas === "Keci") {
-      kilo = kilo * 0.5;
+      kilo = kilo * 0.6;
       var fiyat = kilo * 172;
       document.getElementById("kucuk-karkas").innerHTML = "Hayvanın Karkas Kilosu: " + kilo + "KG";
       document.getElementById("kucuk-fiyat").innerHTML = "Hayvanın Ortalama Fiyatı: " + fiyat + " TL";
